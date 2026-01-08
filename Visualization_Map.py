@@ -2,8 +2,7 @@
 Interactive map visualization for drone navigation.
 
 This module provides a pygame-based visualization
-for the grid world and drone paths. It uses the same DataLoader
-as Drone_UNC_Nav.py to ensure consistent data handling.
+for the grid world and drone paths.
 """
 import pygame as pg
 import numpy as np
@@ -141,4 +140,5 @@ class MapVisualizer:
         self.fps = max(1, min(60, fps))
 
     
+
 
